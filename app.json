@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "scheme": "essy-habit-tracker",
+    "name": "essy-habit-tracker",
+    "slug": "essy-habit-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "365ee387-6dee-43ef-b61d-b12e0f496810"
+      }
+    },
+    "expo": {
+      "ios": {
+        "bundleIdentifier": "com.joshua.essy"
+      }
+    },
+    "owner": "joshuakotake",
+    "plugins": ["expo-router"]
+  }
+}

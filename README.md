@@ -1,1 +1,1 @@
-# essy-habit-tracker
+# Essy Habit Tracker App
